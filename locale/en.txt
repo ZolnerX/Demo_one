@@ -1,0 +1,39 @@
+#: locale=en
+
+## Hotspot
+
+### URL
+FramePanoramaOverlay_F3EC228A_E44A_293A_41E9_49F44ABB126B.url = https://www.theattentiongroup.io
+
+## Media
+
+### Title
+video_F3881ADF_E45E_5EDA_41E5_EFAF384ECCEE.label = Voxedit_Orange_British_Car
+video_F313B2D6_E445_E92D_41E9_3BD5C4FAEA7B.label = Voxedit_Purple_European_Car
+video_F2E62215_E44B_E92E_41E9_E89A44E05D38.label = Voxedit_Red_British_Car
+panorama_EE1865E6_E446_2AED_41A8_C919F679AE4F.label = cam01_0173
+panorama_EE187808_E446_3925_41E4_0F19EE486A60.label = cam03_0173
+panorama_EE18A0BC_E446_295E_41E7_3F840CE381D3.label = cam04_0173
+panorama_EE1879E7_E446_5AEB_41D7_FF17D71F3ACE.label = cam05_0173
+panorama_EE18C14E_E446_6B3A_41BC_43BAF893748E.label = cam06_0173
+panorama_EE18298F_E446_7B3A_41E2_0DF402D4C318.label = cam07_0173
+panorama_EE18F201_E446_6927_4193_EA7F0604BD45.label = cam08_0173
+panorama_EE264AB9_E446_5967_41E5_58CADD349DEE.label = cam09_0173
+panorama_EED30224_E446_296D_41DA_8466F1EAE6E0.label = cam10_0173
+
+### Video
+videolevel_E2532654_E9C1_EA76_41D4_91627419CEFF.url = media/video_F2E62215_E44B_E92E_41E9_E89A44E05D38_en.mp4
+videolevel_E2532654_E9C1_EA76_41D4_91627419CEFF.posterURL = media/video_F2E62215_E44B_E92E_41E9_E89A44E05D38_poster_en.jpg
+videolevel_E5AA4D18_E9C1_FFFE_41EC_4D22D5C324E7.url = media/video_F313B2D6_E445_E92D_41E9_3BD5C4FAEA7B_en.mp4
+videolevel_E5AA4D18_E9C1_FFFE_41EC_4D22D5C324E7.posterURL = media/video_F313B2D6_E445_E92D_41E9_3BD5C4FAEA7B_poster_en.jpg
+videolevel_E5B1735A_E9C1_EA72_41EA_0C33A57C5918.url = media/video_F3881ADF_E45E_5EDA_41E5_EFAF384ECCEE_en.mp4
+videolevel_E5B1735A_E9C1_EA72_41EA_0C33A57C5918.posterURL = media/video_F3881ADF_E45E_5EDA_41E5_EFAF384ECCEE_poster_en.jpg
+
+### Video Subtitles
+
+## Tour
+
+### Description
+
+### Title
+tour.name = Cam_1
