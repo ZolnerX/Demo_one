@@ -6,15 +6,15 @@
     <meta name="viewport" id="metaViewport" content="user-scalable=no, initial-scale=1, width=device-width, viewport-fit=cover" data-tdv-general-scale="0.5"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <script src="lib/tdvplayer.js?v=1675364043008"></script>
-    <link rel="preload" href="locale/en.txt?v=1675364043008" as="fetch" crossorigin="anonymous"/>
-	<link rel="preload" href="script.js?v=1675364043008" as="script"/>
-	<link rel="preload" href="media/panorama_EED30224_E446_296D_41DA_8466F1EAE6E0_0/r/2/0_0.jpg?v=1675364043008" as="image"/>
-	<link rel="preload" href="media/panorama_EED30224_E446_296D_41DA_8466F1EAE6E0_0/l/2/0_0.jpg?v=1675364043008" as="image"/>
-	<link rel="preload" href="media/panorama_EED30224_E446_296D_41DA_8466F1EAE6E0_0/u/2/0_0.jpg?v=1675364043008" as="image"/>
-	<link rel="preload" href="media/panorama_EED30224_E446_296D_41DA_8466F1EAE6E0_0/d/2/0_0.jpg?v=1675364043008" as="image"/>
-	<link rel="preload" href="media/panorama_EED30224_E446_296D_41DA_8466F1EAE6E0_0/f/2/0_0.jpg?v=1675364043008" as="image"/>
-	<link rel="preload" href="media/panorama_EED30224_E446_296D_41DA_8466F1EAE6E0_0/b/2/0_0.jpg?v=1675364043008" as="image"/>
+    <script src="lib/tdvplayer.js?v=1675365073152"></script>
+    <link rel="preload" href="locale/en.txt?v=1675365073152" as="fetch" crossorigin="anonymous"/>
+	<link rel="preload" href="script.js?v=1675365073152" as="script"/>
+	<link rel="preload" href="media/panorama_EED30224_E446_296D_41DA_8466F1EAE6E0_0/r/2/0_0.jpg?v=1675365073152" as="image"/>
+	<link rel="preload" href="media/panorama_EED30224_E446_296D_41DA_8466F1EAE6E0_0/l/2/0_0.jpg?v=1675365073152" as="image"/>
+	<link rel="preload" href="media/panorama_EED30224_E446_296D_41DA_8466F1EAE6E0_0/u/2/0_0.jpg?v=1675365073152" as="image"/>
+	<link rel="preload" href="media/panorama_EED30224_E446_296D_41DA_8466F1EAE6E0_0/d/2/0_0.jpg?v=1675365073152" as="image"/>
+	<link rel="preload" href="media/panorama_EED30224_E446_296D_41DA_8466F1EAE6E0_0/f/2/0_0.jpg?v=1675365073152" as="image"/>
+	<link rel="preload" href="media/panorama_EED30224_E446_296D_41DA_8466F1EAE6E0_0/b/2/0_0.jpg?v=1675365073152" as="image"/>
 	<meta property="og:title" content="Ozoka" />
 	<meta property="og:type" content="website" />
 	<meta property="og:description" content="Virtual Tour" />
@@ -23,21 +23,21 @@
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
 	<meta property="fb:app_id" content="817622095004141" />
-	<link rel="image_src" href="https://www.zolnerx.com/socialThumbnail.jpg?v=1675364043008">
+	<link rel="image_src" href="https://www.zolnerx.com/socialThumbnail.jpg?v=1675365073152">
 	<meta property="og:locale" content="en"/>
 	<meta name="twitter:card" content="summary_large_image"/>
 	<meta name="twitter:title" content="Ozoka"/>
 	<meta name="twitter:description" content="Virtual Tour"/>
 	<meta name="twitter:url" content="https://www.zolnerx.com/index.htm"/>
-	<meta name="twitter:image:src" content="https://www.zolnerx.com/socialThumbnail.jpg?v=1675364043008"/>
+	<meta name="twitter:image:src" content="https://www.zolnerx.com/socialThumbnail.jpg?v=1675365073152"/>
 	<meta name="twitter:image:width" content="1200"/>
 	<meta name="twitter:image:height" content="630"/>
 	<meta name="description" content="Virtual Tour"/>
-	<meta name="theme-color" content="#FFFFFF"/>
-    <script src="script.js?v=1675364043008"></script>
+	<meta name="theme-color" content="#000000"/>
+    <script src="script.js?v=1675365073152"></script>
     <script type="text/javascript">
         var tour;
-        var devicesUrl = {"general":"script_general.js?v=1675364043008"};
+        var devicesUrl = {"general":"script_general.js?v=1675365073152"};
 
         (function()
         {
@@ -80,9 +80,9 @@
 
             var settings = new TDV.PlayerSettings();
             settings.set(TDV.PlayerSettings.CONTAINER, document.getElementById('viewer'));
-            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1675364043008');
-            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1675364043008');
-            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1675364043008');
+            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1675365073152');
+            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1675365073152');
+            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1675365073152');
 
             tour = new TDV.Tour(settings, devicesUrl);
             tour.bind(TDV.Tour.EVENT_TOUR_INITIALIZED, onVirtualTourInit);
@@ -123,7 +123,7 @@
 
         function onVirtualTourLoaded()
         {
-            disposePreloader();
+            
         }
 
         function onVirtualTourEnded()
@@ -178,7 +178,7 @@
 
             function hide()
             {
-                document.getElementById("video_1E2C32E2_1369_171D_419B_59B575B5C8A9").pause();
+                document.getElementById("video_1FF1AA1E_1385_3738_4173_2878C25D7BFC").pause();
                 document.body.style.backgroundColor = window.getComputedStyle(preloadContainer).backgroundColor;
                 preloadContainer.style.visibility = 'hidden';
                 preloadContainer.style.display = 'none';
@@ -215,7 +215,7 @@
         function onBodyClick(){
             document.body.removeEventListener("click", onBodyClick);
             document.body.removeEventListener("touchend", onBodyClick);
-            loadTour();
+            
         }
 
         function onLoad() {
@@ -252,13 +252,13 @@
                 return;
             }
 
-            playVideo(document.getElementById("video_1E2C32E2_1369_171D_419B_59B575B5C8A9"), true);
-			document.body.addEventListener("click", onBodyClick);
-			document.body.addEventListener("touchend", onBodyClick);
+            playVideo(document.getElementById("video_1FF1AA1E_1385_3738_4173_2878C25D7BFC"), true);
 			showPreloader();
+			loadTour();
+			pauseTour();
         }
 
-        
+        function onVideoEnd() { disposePreloader(); resumeTour(); };
 
         function playVideo(video, autoplayMuted, clickComponent) {
             function isSafariDesktopV11orGreater() {
@@ -348,12 +348,12 @@
         .fill-viewport.landscape-left { left: env(safe-area-inset-left); }
 		.fill-viewport.landscape-right { right: env(safe-area-inset-right); }
         #viewer { z-index:1; }
-        #preloadContainer { z-index:2; opacity:0; background-color:rgba(255,255,255,1); transition: opacity 0.5s; -webkit-transition: opacity 0.5s; -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s;}
+        #preloadContainer { z-index:2; opacity:0; background-color:rgba(0,0,0,1); transition: opacity 0.5s; -webkit-transition: opacity 0.5s; -moz-transition: opacity 0.5s; -o-transition: opacity 0.5s;}
     </style>
     
 </head>
 <body>
-    <div id="preloadContainer" class="fill-viewport"><div style="z-index: 4; position: absolute; display: flex; align-items: center; text-align: center; overflow: hidden; background-color: #FFFFFF; left: 0%; top: 0%; width: 100.00%; height: 100.00%" ><video id="video_1E2C32E2_1369_171D_419B_59B575B5C8A9" style="position: absolute; min-width: 100%; min-height: 100%; width: auto; height: auto; overflow: hidden; left: 50%; top: 50%; transform: translateY(-50%) translateX(-50%)" autoplay onended="onBodyClick()" playsinline webkit-playsinline poster="media/video_1E2C32E2_1369_171D_419B_59B575B5C8A9_poster_en.jpg" preload="auto"><source src="media/video_1E2C32E2_1369_171D_419B_59B575B5C8A9_en.mp4" type="video/mp4">Your browser does not support the video tab</video></div></div>
+    <div id="preloadContainer" class="fill-viewport"><div style="z-index: 4; position: absolute; display: flex; align-items: center; text-align: center; overflow: hidden; background-color: #000000; left: 0%; top: 0%; width: 100.00%; height: 100.00%" ><video id="video_1FF1AA1E_1385_3738_4173_2878C25D7BFC" style="position: absolute; min-width: 100%; min-height: 100%; width: auto; height: auto; overflow: hidden; left: 50%; top: 50%; transform: translateY(-50%) translateX(-50%)" autoplay onended="onVideoEnd()" playsinline webkit-playsinline poster="media/video_1FF1AA1E_1385_3738_4173_2878C25D7BFC_poster_en.jpg" preload="auto"><source src="media/video_1FF1AA1E_1385_3738_4173_2878C25D7BFC_en.mp4" type="video/mp4">Your browser does not support the video tab</video></div></div>
     <div id="viewer" class="fill-viewport"></div>
 </body>
 </html>
